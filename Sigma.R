@@ -1,5 +1,6 @@
 #rm(list= ls()) # clear the r environment - use cautiously for clean work
 # Load dataset
+# Download the dataset, run the command below and choose the file
 dataset1 <- read.table(file.choose(), sep= ",", header= TRUE,
                        stringsAsFactors= FALSE)
 
